@@ -1,0 +1,79 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp1
+{
+    internal class Program
+    {
+        
+
+        static void Main(string[] args)
+        {
+
+
+
+            while (true)
+
+            {
+
+
+
+                Console.WriteLine("                +Tic-Tac-Toe+");
+                Console.WriteLine("1-New Game");
+                Console.WriteLine("2-About the author");
+                Console.WriteLine("3-Exit");
+                string secim = Console.ReadLine();
+                if (secim == "1")
+                {
+
+                    Console.WriteLine("    |    |    ");
+                    Console.WriteLine("----+----+----");
+                    Console.WriteLine("    |    |    ");
+                    Console.WriteLine("----+----+----");
+                    Console.WriteLine("    |    |    ");
+                    Console.WriteLine("Player1-X");
+                    Console.WriteLine("Player2-O");
+                    Console.ReadLine();
+
+
+                }
+                else if (secim == "2")
+                {
+                    Console.WriteLine("I dont know what should i write here... ");
+                    Console.ReadLine();
+                }
+                else if (secim == "3")
+                {
+                    Console.WriteLine("Are you sure you want exit?? (y or n)");
+                    string cikis = Console.ReadLine();
+                    if (cikis == "y")
+                    {
+                        Console.WriteLine("Okay,thanks for playing.. ");
+                        break;
+
+                    }
+                    else if (cikis == "n")
+                    {
+                        Console.WriteLine("Okay,Im transfering you to manin menu..");
+                        Console.ReadLine();
+                        
+
+
+                    }
+                }
+
+
+
+
+
+            }
+
+
+
+
+        }
+    }
+}
